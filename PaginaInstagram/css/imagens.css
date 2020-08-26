@@ -1,0 +1,81 @@
+.celularScreen{
+    display: flex;
+    flex-direction: column;
+}
+
+.celularScreen__img{
+    position: relative;
+}
+
+.imagemCelularFundo{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    position: relative;
+}
+
+.carrosselInsta{
+    position: absolute;
+    left:146px;
+    top:94px;
+    width:248px;
+}
+
+
+.imagemLogo{
+    height: 55px;
+    width: 180px;
+    background-image: url("../imgInstagram/spriteInstagram.png");
+    background-position:0 -128px;
+}
+
+.imagemFace{
+    height: 16px;
+    width: 16px;
+    background:url("../imgInstagram/spriteInstagram.png") no-repeat -414px -259px;
+}
+
+
+.app__marketplaceLink--googleplay img{
+    
+    width: 136px;
+    height: 40px;
+   
+}
+
+
+.app__marketplaceLink--applestore img{
+    width: 134px;
+    height: 40px;
+}
+
+@media screen and (max-width:874px){
+    .containerInstagram{
+        height: 90vh;
+    }
+    .celularScreen{
+        display: none;
+    }
+    .rodape{
+        height: 2vh;
+    }
+    .rodape__container {
+      padding: 0;  
+    } 
+    .copyRight{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:450px){
+    .containerInstagram{
+        height: 85vh;
+    }
+    .loginScreen{
+        border: none;
+    }
+    .singUP{
+        border: none;
+    }
+    
+}
